@@ -8,7 +8,7 @@ from functools import wraps
 
 
 app = Flask(__name__)
-DB_NAME = "C:/Users/ITWORK/Desktop/api_example/todo.db"
+DB_NAME = "https://github.com/Eckava/Homework2/blob/main/api_example/todo.db"
 app.config['SECRET_KEY'] = 'thisissecret'
 app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'
 
